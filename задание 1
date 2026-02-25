@@ -3,9 +3,9 @@
 using namespace std;
 int main() {                      
 	setlocale(LC_ALL, "RU");
-	float n, m, plita; \\ plita - сторона плиты
+	float n, m, plita; \\ без конфликтов
 
-	cin >> n >> m >> plita; \\ вводим данные
+	cin >> n >> m >> plita; \\ буээ
 
 	if (n <= 0 || m <= 0 || plita <= 0) {
 		cout << "введите значения больше " << endl;
