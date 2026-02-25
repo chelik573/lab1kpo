@@ -1,20 +1,12 @@
-#include <iostream>
 #include <cmath>
 using namespace std;
-int main() {                      
-	setlocale(LC_ALL, "RU");
-	float n, m, plita; \\ без конфликтов
-
-	cin >> n >> m >> plita; \\ буээ
-
-	if (n <= 0 || m <= 0 || plita <= 0) {
-		cout << "введите значения больше " << endl;
-	}
-	else {
-		 int bok1= ceil (n/plita);
-		 int bok2 = ceil (m/plita);
-		 int plit = bok1 * bok2;
-		cout << "нужное количество плит: " << plit  << endl; \\ выводим колво плит
-	}
-	return 0;
-}
+int main() {
+    setlocale(LC_ALL, "RU");
+    float n, m, plita; // без конфликтов
+    cin >> n >> m >> plita; // буээ
+    if (n <= 0 || m <= 0 || plita <= 0) {
+    cout << "введите значения больше " << endl;
+    int bok1= ceil (n/plita);
+    int bok2 = ceil (m/plita);
+    int plit = bok1 * bok2;
+    cout << "нужное количество плит: " << plit << endl; // выводим КОЛ ВО ПЛИТ
